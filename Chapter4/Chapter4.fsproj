@@ -46,6 +46,13 @@
     <Compile Include="TheUnitType.fs" />
     <Compile Include="MutableValues.fs" />
     <Compile Include="Arrays.fs" />
+    <Compile Include="ControlFlow.fs" />
+    <Compile Include="DotNetStaticMethodsAndProperties.fs" />
+    <Compile Include="DotNetObjectsAndInstanceMembers.fs" />
+    <Compile Include="DotNetIndexers.fs" />
+    <Compile Include="DotNetEvents.fs" />
+    <Compile Include="DotNetPatternMatching.fs" />
+    <Compile Include="ForwardPipeOperator.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
