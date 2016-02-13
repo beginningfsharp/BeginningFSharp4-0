@@ -29,6 +29,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8ConsoleApp6", "Chap
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8ConsoleApp7", "Chapter8ConsoleApp7\Chapter8ConsoleApp7.fsproj", "{7D8F8B57-EB7E-46BA-996F-93177EFD37E5}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter9", "Chapter9\Chapter9.fsproj", "{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7D8F8B57-EB7E-46BA-996F-93177EFD37E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D8F8B57-EB7E-46BA-996F-93177EFD37E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D8F8B57-EB7E-46BA-996F-93177EFD37E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
