@@ -60,6 +60,13 @@
     <Content Include="packages.config" />
     <Content Include="app.config" />
     <Compile Include="Async.fs" />
+    <Compile Include="Async2.fs" />
+    <Content Include="text1.txt" />
+    <Content Include="text2.txt" />
+    <Content Include="text3.txt" />
+    <Compile Include="MessagePassing.fs" />
+    <Compile Include="MessagePassing2.fs" />
+    <Compile Include="MessagePassing3.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Collections.ParallelSeq">
@@ -88,6 +95,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
