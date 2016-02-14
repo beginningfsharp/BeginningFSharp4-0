@@ -1,4 +1,4 @@
-﻿namespace Chapter10.AssemblyInfo
+﻿namespace Chapter10ConsoleApplication.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("Chapter10")>]
+[<assembly: AssemblyTitle("Chapter10ConsoleApplication")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("Chapter10")>]
+[<assembly: AssemblyProduct("Chapter10ConsoleApplication")>]
 [<assembly: AssemblyCopyright("Copyright ©  2016")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("d6da1bb5-11a7-4e1c-8f00-f2e75b0b6679")>]
+[<assembly: Guid("00d681ff-ef05-4d7f-a761-3a4aa1457480")>]
 
 // Version information for an assembly consists of the following four values:
 // 
