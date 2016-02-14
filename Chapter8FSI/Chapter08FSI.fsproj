@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>344f965b-1c69-4310-80b3-d0130de0624b</ProjectGuid>
+    <ProjectGuid>a0221e4a-0e3f-4d32-8717-2a33481df5d8</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>BeginningFSharp4_0</RootNamespace>
-    <AssemblyName>BeginningFSharp4_0</AssemblyName>
+    <RootNamespace>Chapter8FSI</RootNamespace>
+    <AssemblyName>Chapter8FSI</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>Chapter3</Name>
+    <Name>Chapter08FSI</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Debug\BeginningFSharp4_0.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Chapter8FSI.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,39 +31,8 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Release\BeginningFSharp4_0.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Chapter8FSI.XML</DocumentationFile>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="mscorlib" />
-    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Literals.fs" />
-    <Compile Include="IdentifiersAndLetBindings.fs" />
-    <Compile Include="UseBindings.fs" />
-    <Compile Include="Recursion.fs" />
-    <Compile Include="Operators.fs" />
-    <Compile Include="FunctionApplication.fs" />
-    <Compile Include="PartialApplication.fs" />
-    <Compile Include="PatternMatching.fs" />
-    <Compile Include="ControlFlow.fs" />
-    <Compile Include="Lists.fs" />
-    <Compile Include="PatternMatchingLists.fs" />
-    <Compile Include="ListComprehensions.fs" />
-    <Compile Include="TypesAndTypeInference.fs" />
-    <Compile Include="TupleAndRecordTypes.fs" />
-    <Compile Include="DiscriminatedUnions.fs" />
-    <Compile Include="RecursiveTypeDefinitions.fs" />
-    <Compile Include="ActivePatterns.fs" />
-    <Compile Include="UnitsOfMeasure.fs" />
-    <Compile Include="Exceptions.fs" />
-    <Compile Include="LazyEvaluation.fs" />
-  </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
   </PropertyGroup>
@@ -80,6 +49,24 @@
     </Otherwise>
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
+  <ItemGroup>
+    <Compile Include="SystemIO.fs" />
+    <None Include="test.csv" />
+    <Content Include="fruits.xml" />
+    <Compile Include="SystemXML.fs" />
+    <Compile Include="Linq.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

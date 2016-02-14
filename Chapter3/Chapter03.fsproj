@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>d2b0272a-a1f9-4ea3-b09c-34f89d63e070</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter8ConsoleApp3</RootNamespace>
-    <AssemblyName>Chapter8ConsoleApp3</AssemblyName>
+    <ProjectGuid>344f965b-1c69-4310-80b3-d0130de0624b</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BeginningFSharp4_0</RootNamespace>
+    <AssemblyName>BeginningFSharp4_0</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
-    <Name>Chapter8ConsoleApp3</Name>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Name>Chapter03</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,9 +22,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\Chapter8ConsoleApp3.XML</DocumentationFile>
-    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>bin\Debug\BeginningFSharp4_0.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,9 +31,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\Chapter8ConsoleApp3.XML</DocumentationFile>
-    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>bin\Release\BeginningFSharp4_0.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -43,14 +39,30 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.fs" />
-    <None Include="App.config" />
+    <Compile Include="Literals.fs" />
+    <Compile Include="IdentifiersAndLetBindings.fs" />
+    <Compile Include="UseBindings.fs" />
+    <Compile Include="Recursion.fs" />
+    <Compile Include="Operators.fs" />
+    <Compile Include="FunctionApplication.fs" />
+    <Compile Include="PartialApplication.fs" />
+    <Compile Include="PatternMatching.fs" />
+    <Compile Include="ControlFlow.fs" />
+    <Compile Include="Lists.fs" />
+    <Compile Include="PatternMatchingLists.fs" />
+    <Compile Include="ListComprehensions.fs" />
+    <Compile Include="TypesAndTypeInference.fs" />
+    <Compile Include="TupleAndRecordTypes.fs" />
+    <Compile Include="DiscriminatedUnions.fs" />
+    <Compile Include="RecursiveTypeDefinitions.fs" />
+    <Compile Include="ActivePatterns.fs" />
+    <Compile Include="UnitsOfMeasure.fs" />
+    <Compile Include="Exceptions.fs" />
+    <Compile Include="LazyEvaluation.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

@@ -3,33 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter3", "Chapter3\Chapter3.fsproj", "{344F965B-1C69-4310-80B3-D0130DE0624B}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter03", "Chapter3\Chapter03.fsproj", "{344F965B-1C69-4310-80B3-D0130DE0624B}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter4", "Chapter4\Chapter4.fsproj", "{8C0FD413-EC61-4096-AE41-7F3748FFC662}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter04", "Chapter4\Chapter04.fsproj", "{8C0FD413-EC61-4096-AE41-7F3748FFC662}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter5", "Chapter5\Chapter5.fsproj", "{D8C37671-F3B5-4240-9FED-81B0AB89C1B6}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter05", "Chapter5\Chapter05.fsproj", "{D8C37671-F3B5-4240-9FED-81B0AB89C1B6}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter6", "Chapter6\Chapter6.fsproj", "{C1551736-216F-43EE-9C85-5C0D7E97A63E}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter06", "Chapter6\Chapter06.fsproj", "{C1551736-216F-43EE-9C85-5C0D7E97A63E}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter7", "Chapter7\Chapter7.fsproj", "{C9619648-AEB4-42A0-81F1-868E4AAC50F5}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter07", "Chapter7\Chapter07.fsproj", "{C9619648-AEB4-42A0-81F1-868E4AAC50F5}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8ConsoleApp", "Chapter8\Chapter8ConsoleApp.fsproj", "{62948BB4-EAE2-4AD7-B37C-7F720EE6C9F1}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter08ConsoleApp", "Chapter8\Chapter08ConsoleApp.fsproj", "{62948BB4-EAE2-4AD7-B37C-7F720EE6C9F1}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8FSI", "Chapter8FSI\Chapter8FSI.fsproj", "{A0221E4A-0E3F-4D32-8717-2A33481DF5D8}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter08FSI", "Chapter8FSI\Chapter08FSI.fsproj", "{A0221E4A-0E3F-4D32-8717-2A33481DF5D8}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8ConsoleApp2", "Chapter8ConsoleApp2\Chapter8ConsoleApp2.fsproj", "{D7A5EBB5-7D41-4F33-9637-1FE2D64C853E}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter08ConsoleApp2", "Chapter8ConsoleApp2\Chapter08ConsoleApp2.fsproj", "{D7A5EBB5-7D41-4F33-9637-1FE2D64C853E}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8ConsoleApp3", "Chapter8ConsoleApp3\Chapter8ConsoleApp3.fsproj", "{D2B0272A-A1F9-4EA3-B09C-34F89D63E070}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter08ConsoleApp3", "Chapter8ConsoleApp3\Chapter08ConsoleApp3.fsproj", "{D2B0272A-A1F9-4EA3-B09C-34F89D63E070}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8ConsoleApp4", "Chapter8ConsoleApp4\Chapter8ConsoleApp4.fsproj", "{7889ADFF-9A21-47AB-977F-D18ECC3DA292}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter08ConsoleApp4", "Chapter8ConsoleApp4\Chapter08ConsoleApp4.fsproj", "{7889ADFF-9A21-47AB-977F-D18ECC3DA292}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8ConsoleApp5", "Chapter8ConsoleApp5\Chapter8ConsoleApp5.fsproj", "{6B8FE448-2F0F-468D-B51B-BCA122DE248B}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter08ConsoleApp5", "Chapter8ConsoleApp5\Chapter08ConsoleApp5.fsproj", "{6B8FE448-2F0F-468D-B51B-BCA122DE248B}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8ConsoleApp6", "Chapter8ConsoleApp6\Chapter8ConsoleApp6.fsproj", "{8A55AF27-0641-4F44-A4DF-4D63751A8A3D}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter08ConsoleApp6", "Chapter8ConsoleApp6\Chapter08ConsoleApp6.fsproj", "{8A55AF27-0641-4F44-A4DF-4D63751A8A3D}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter8ConsoleApp7", "Chapter8ConsoleApp7\Chapter8ConsoleApp7.fsproj", "{7D8F8B57-EB7E-46BA-996F-93177EFD37E5}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter08ConsoleApp7", "Chapter8ConsoleApp7\Chapter08ConsoleApp7.fsproj", "{7D8F8B57-EB7E-46BA-996F-93177EFD37E5}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter9", "Chapter9\Chapter9.fsproj", "{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter09", "Chapter9\Chapter09.fsproj", "{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter10", "Chapter10\Chapter10.fsproj", "{D6DA1BB5-11A7-4E1C-8F00-F2E75B0B6679}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFAD5AED-E915-4B1F-8927-0C31995FB6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DA1BB5-11A7-4E1C-8F00-F2E75B0B6679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DA1BB5-11A7-4E1C-8F00-F2E75B0B6679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DA1BB5-11A7-4E1C-8F00-F2E75B0B6679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DA1BB5-11A7-4E1C-8F00-F2E75B0B6679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
