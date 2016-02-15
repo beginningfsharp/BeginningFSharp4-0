@@ -5,14 +5,15 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>59f12e38-0e51-4501-8e33-1e0b1ead5e36</ProjectGuid>
+    <ProjectGuid>77fae3ea-369b-4ec8-ac55-14ae08f9383d</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Chapter12</RootNamespace>
-    <AssemblyName>Chapter12</AssemblyName>
+    <RootNamespace>Chapter12COM</RootNamespace>
+    <AssemblyName>Chapter12COM</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>Chapter12</Name>
+    <Name>Chapter12COM</Name>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +23,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Debug\Chapter12.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Chapter12COM.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,8 +32,20 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Release\Chapter12.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Chapter12COM.XML</DocumentationFile>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExposingFSharpViaCOM.fs" />
+  </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
   </PropertyGroup>
@@ -49,30 +62,11 @@
     </Otherwise>
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
-  <ItemGroup>
-    <Compile Include="ExposingTuples.fs" />
-    <Compile Include="ExposingFunctionsThatTakeFunctions.fs" />
-    <Compile Include="ExposingDiscriminatedUnions.fs" />
-    <Compile Include="ExposingDiscriminatedUnionsWithMembers.fs" />
-    <Compile Include="ExposingLists.fs" />
-    <Compile Include="DefiningTypesInANamespace.fs" />
-    <Compile Include="ExposingClassesAndInterfaces.fs" />
-    <Compile Include="ExposingAbstractMembers.fs" />
-    <Compile Include="COMToExcel.fs" />
-    <None Include="Book1.xls" />
-    <Compile Include="PInvokeMessageBeep.fs" />
-    <Compile Include="PInvokeFileEncryptionStatus.fs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
-    <Reference Include="mscorlib" />
-    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
-  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>%SYSTEMROOT%\Microsoft.NET\Framework\v4.0.30319\regasm Chapter12Com.dll /tlb: Chapter12Com.tlb
+%SYSTEMROOT%\Microsoft.NET\Framework\v4.0.30319\regasm  Chapter12Com.dll
+</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
