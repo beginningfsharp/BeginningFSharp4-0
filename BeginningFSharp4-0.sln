@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter03", "Chapter3\Chapter03.fsproj", "{344F965B-1C69-4310-80B3-D0130DE0624B}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter04", "Chapter4\Chapter04.fsproj", "{8C0FD413-EC61-4096-AE41-7F3748FFC662}"
