@@ -1,4 +1,6 @@
-﻿#if INTERACTIVE
+﻿// This file is not cross-platform. Delete it from the solution
+// if working on a non-Microsoft environment.
+#if INTERACTIVE
 #r "Microsoft.Office.Interop.Excel.dll"
 #else
 module COMToExcel

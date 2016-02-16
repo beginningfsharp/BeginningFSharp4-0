@@ -1,7 +1,7 @@
 ﻿#if INTERACTIVE
 // You may have to alter this path depending on the version
 // of FSharp.Data.SqlClient downloaded and on your project structure
-#r @"..\packages\FSharp.Data.SqlClient.1.7.7\lib\net40\FSharp.Data.SqlClient.dll"
+#r @"../packages/FSharp.Data.SqlClient.1.7.7/lib/net40/FSharp.Data.SqlClient.dll"
 #else
 module AdventureWorks
 #endif

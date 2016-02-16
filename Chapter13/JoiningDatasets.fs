@@ -1,8 +1,8 @@
 ﻿#if INTERACTIVE
 // You may have to alter this path depending on the version
 // of FSharp.Data downloaded and on you project structure
-#r @"..\packages\FSharp.Data.2.2.5\lib\net40\FSharp.Data.dll"
-#r @"..\packages\FSharp.Data.SqlClient.1.7.7\lib\net40\FSharp.Data.SqlClient.dll"
+#r @"../packages/FSharp.Data.2.2.5/lib/net40/FSharp.Data.dll"
+#r @"../packages/FSharp.Data.SqlClient.1.7.7/lib/net40/FSharp.Data.SqlClient.dll"
 #else
 module VerifyCountryCodes
 #endif
